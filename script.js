@@ -2,27 +2,27 @@ let data = [
   {
     id: 1,
     imageUrl:
-      "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
+      "https://img.freepik.com/free-vector/autumn-realistic-background-theme_52683-44287.jpg",
     title: "slider title 1",
   },
 
   {
     id: 2,
     imageUrl:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "https://pbs.twimg.com/media/FfIk6ESWQAI0nxH?format=jpg&name=large",
     title: "slider title 2",
   },
 
   {
     id: 3,
     imageUrl:
-      "https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300",
+      "https://www.my1styears.com/blog/wp-content/uploads/2021/09/Blog-28_09-Banner-900x600.jpeg",
     title: "slider title 3",
   },
   {
     id: 4,
     imageUrl:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "https://render.fineartamerica.com/images/rendered/default/print/8/5/break/images-medium-5/outem-park-michael-shabrin.jpg",
     title: "slider title 4",
   },
 ];
