@@ -171,4 +171,19 @@ registrationForm.addEventListener("submit", function (event) {
   }
 });
 
+// show hide password
+let password = document.getElementById('passwordField');
+let icon = document.getElementById('toogleIcon');
+
+ icon.addEventListener('click', function() {
+   if (password.type == "password") {
+    password.setAttribute("type","text");
+    icon.classList.remove("fa-eye");
+    icon.classList.add("fa-eye-slash");
+  } else {
+    password.setAttribute("type","password");
+    icon.classList.add("fa-eye");
+    icon.classList.remove("fa-eye-slash");
+  }
+})
 
