@@ -50,3 +50,8 @@
   background-position: center;
 
 }
+.error-text{
+    color: blue;
+    display: block;
+    
+}
