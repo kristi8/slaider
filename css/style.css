@@ -37,13 +37,14 @@
 .dot{
     width: 20px;
     height: 20px;
-    background-color: royalblue;
+    background-color: yellow;
     border-radius: 50%;
     margin: 10px;
 
 }
 .activeDot{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    background-color: brown;
 
 }
 .bg-image{
