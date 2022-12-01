@@ -31,6 +31,7 @@ let arrowLeft = document.getElementById("arrow-left");
 let arrowRight = document.getElementById("arrow-right");
 let sliderContent = document.getElementById("slider-content");
 let sliderIndex = 0;
+let dotItem = document.getElementsByClassName('dot');
 
 // დივ ტეგი
 function createDiveTag() {
@@ -71,7 +72,14 @@ function createDots() {
   data.forEach((element) => {
     let dot = document.createElement("div");
     dot.classList.add("dot");
+    dot.setAttribute('data-id',element.id-1);
     dotsParent.appendChild(dot);
+    dot.addEventListener('click', function(event){
+      let id = event.target.getAttribute('data-id');
+      console.log(id);
+      sliderIndex = id;
+      slide();
+    })
   });
 
   return dotsParent;
@@ -87,6 +95,8 @@ function slide() {
   slideItem.appendChild(titleTag);
   sliderContent.appendChild(slideItem);
   sliderContent.appendChild(dotsElement);
+
+  dotItem[sliderIndex].classList.add("activeDot");
 }
 function arroLeftclick() {
   if (sliderIndex == 0) {
@@ -185,5 +195,6 @@ let icon = document.getElementById('toogleIcon');
     icon.classList.add("fa-eye");
     icon.classList.remove("fa-eye-slash");
   }
-})
+});
+
 
